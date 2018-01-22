@@ -8,6 +8,7 @@ public class IndexController {
 	@RequestMapping("/index")
 	public String showIndex(){
 		System.out.println("我爱銮銮tutu");
+		System.out.println("我爱銮銮,我的宝贝");
 		return "index";
 	}
 }
